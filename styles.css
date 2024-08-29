@@ -1,1 +1,57 @@
-/*  your css code here. If applicable */
+#grid{
+	display: grid;
+	grid-template-areas:
+	"hed hed hed hed"
+	"h1 h2 h3 h3"
+	"h1  h5 h5 h6"
+	"h1 h7 h8 h9"
+	"h1 h10 h10 h10";
+
+	
+	grid-template-rows: 100px 100px 100px 100px 100px;
+	grid-template-columns: 200px 200px 200px 200px 200px;
+	grid-row-gap:10px;
+	 grid-column-gap: 10px;
+}
+.item1{
+	grid-area: hed;
+    background-color:green;
+}
+.item2{
+	grid-area: h1;
+    background-color:green;
+}
+.item3{
+	grid-area: h2;
+    background-color:green;
+}
+.item4{
+	grid-area: h3;
+    background-color:green;
+}
+
+.item5{
+	grid-area: h5;
+    background-color:green;
+}
+.item6{
+	grid-area: h6;
+    background-color:green;
+}
+
+.item7{
+	grid-area: h7;
+    background-color:green;
+}
+.item8{
+	grid-area: h8;
+    background-color:green;
+}
+.item9{
+	grid-area: h9;
+    background-color:green;
+}
+.item10{
+	grid-area: h10;
+    background-color:green;
+}
