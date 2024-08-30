@@ -1,4 +1,4 @@
-#grid{
+#container{
 	display: grid;
 	grid-template-areas:
 	"hed hed hed hed"
@@ -10,8 +10,8 @@
 	
 	grid-template-rows: 100px 100px 100px 100px 100px;
 	grid-template-columns: 200px 200px 200px 200px;
-	grid-row-gap:10px;
-	 grid-column-gap: 10px;
+	grid-row-gap:5px;
+	 grid-column-gap: 5px;
 }
 .item1{
 	grid-area: hed;
