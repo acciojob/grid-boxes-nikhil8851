@@ -9,49 +9,71 @@
 
 	
 	grid-template-rows: 100px 100px 100px 100px 100px;
-	grid-template-columns: 200px 200px 200px 200px 200px;
+	grid-template-columns: 200px 200px 200px 200px;
 	grid-row-gap:10px;
 	 grid-column-gap: 10px;
 }
 .item1{
 	grid-area: hed;
     background-color:green;
+	color: white;
+	font-size:30px;
+	color: white;
+	font-size:30px;
 }
 .item2{
 	grid-area: h1;
     background-color:green;
+	color: white;
+	font-size:30px;
 }
 .item3{
 	grid-area: h2;
     background-color:green;
+	color: white;
+	font-size:30px;
 }
 .item4{
 	grid-area: h3;
     background-color:green;
+	color: white;
+	font-size:30px;
 }
 
 .item5{
 	grid-area: h5;
     background-color:green;
+	color: white;
+	font-size:30px;
 }
 .item6{
 	grid-area: h6;
     background-color:green;
+	color: white;
+	font-size:30px;
 }
 
 .item7{
 	grid-area: h7;
     background-color:green;
+	color: white;
+	font-size:30px;
 }
 .item8{
 	grid-area: h8;
     background-color:green;
+	color: white;
+	font-size:30px;
 }
 .item9{
 	grid-area: h9;
     background-color:green;
+	color: white;
+	font-size:30px;
 }
 .item10{
 	grid-area: h10;
     background-color:green;
+	color: white;
+	font-size:30px;
 }
