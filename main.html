@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-
-<html>
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-
-  <body>
-    <div id="container">
-      <div class="item1">1</div>
-      <div class="item2">2</div>
-      <div class="item3">3</div>
-      <div class="item4">4</div>
-      <div class="item5">5</div>
-      <div class="item6">6</div>
-      <div class="item7">7</div>
-      <div class="item8">8</div>
-      <div class="item9">9</div>
-      <div class="item10">10</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Grid Layout Test</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 r1c1">Row 1, Column 1</div>
+            <div class="col-md-8 col-sm-6 r1c2">Row 1, Column 2</div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-md-4 r2c1 offset-md-2">Row 2, Column 1</div>
+            <div class="col-md-4 r2c2">Row 2, Column 2</div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-sm-6 r3c1">Row 3, Column 1</div>
+            <div class="col-md-4 col-sm-6 r3c2">Row 3, Column 2</div>
+        </div>
     </div>
-    <script type="text/javascript" src="./script.js"></script>
-  </body>
+</body>
 </html>
